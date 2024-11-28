@@ -80,11 +80,41 @@ Your program should output:
   "results": [
     {
       "order_id": 1,
-      "final_total": 30
+      "final_total": 20
     }
   ]
 }
 ```
+Explanations: (0 + 5) * 3 + 5
+
+---
+
+#### **Input:**
+```json
+[
+  {
+    "order_id": 1,
+    "instructions": [
+      {"action": "add", "value": 5},
+      {"action": "add", "value": 3},
+      {"action": "multiply", "value": 5}
+    ]
+  }
+]
+```
+
+#### **Output:**
+```json
+{
+  "results": [
+    {
+      "order_id": 1,
+      "final_total": 40
+    }
+  ]
+}
+```
+Explanations: (0 + 5 + 3) * 5
 
 Statistics should be visible in console.
 
