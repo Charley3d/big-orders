@@ -1,0 +1,6 @@
+ASSETS_DIR = "Assets"
+ORDERS_FILENAME = f"{ASSETS_DIR}/orders.json"
+INSTRUCTIONS_ATTR = "instructions"
+VALUE_ATTR = "value"
+ORDER_ID_ATTR = "order_id"
+ACTION_ATTR = "action"
