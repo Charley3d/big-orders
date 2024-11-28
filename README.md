@@ -115,3 +115,25 @@ Statistics should be visible in console.
    - Provide comprehensive unit tests covering standard and edge cases.
 
 ---
+
+## Performances
+
+### Without Operations Optimizations
+
+![Alt text](Assets/with_no_optimizations.jpg)
+
+### With Operations Optimizations ()
+
+![Alt text](Assets/with_optimizations.jpg)
+
+### Strategy Pattern
+
+Strategy pattern has been used to switch between libraries with ease, leading to significant improvements.
+
+#### Use of builtin json lib
+![Alt text](Assets/strategy_pattern_json.jpg)
+
+#### Use of orjson lib
+![Alt text](Assets/strategy_pattern_orjson.jpg)
+
+
